@@ -294,6 +294,7 @@ hi! link htmlArg            Tag
 hi! link htmlLink           Normal
 hi! link htmlSpecialTagName htmlTagName
 hi! link htmlSpecialChar    Special
+hi! link htmlTagName        Keyword
 
 " Java
 
@@ -482,6 +483,8 @@ hi! link xmlArg             Tag
 hi! link xmlAttrib          Tag
 " XXX: This highlight the brackets and end slash too...which we don't want.
 hi! link xmlEndTag          Keyword
+hi! link xmlEntity          Constant
+hi! link xmlEntityPunct     Constant
 " Variation: I actually liked it when this was faded
 hi! link xmlProcessingDelim Normal
 hi! link xmlTagName         Keyword

@@ -1,4 +1,4 @@
-# vim-monokai
+# vim-sublime-monokai
 
 Refined monokai color scheme for `vim`. It's derived from the work put into:
 
